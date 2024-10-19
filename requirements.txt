@@ -43,7 +43,10 @@ pyinstaller-hooks-contrib==2024.8
 pyparsing==3.1.4
 python-dateutil==2.9.0.post0
 pytz==2024.1
+<<<<<<< HEAD
 pywin32-ctypes==0.2.3
+=======
+>>>>>>> 2d5962fa9d22250f4b4958c21718acc3023bbb6a
 pyzmq==26.2.0
 six==1.16.0
 sqlparse==0.5.0
