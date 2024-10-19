@@ -27,7 +27,7 @@ SECRET_KEY = '7$4=xqd8h!1w=r7!b31o&thkum^jkf&5y4)5u+d$vfg)t&csdf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 LOGIN_URL = '/landing/'
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['winterfigueiredo.pythonanywhere.com']
 
 
 # Application definition
