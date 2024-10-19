@@ -1,0 +1,18 @@
+
+
+{%extends "base.html"%}
+
+{%block conteudo %}
+
+<h1>Boletos pagos com sucesso!</h1>
+
+<ul>
+  {% for boleto in boletos %}
+    <li>Boleto ID: {{ boleto.id }} - Valor: {{ boleto.valor }} - Status: {{ boleto.status }}</li>
+  {% endfor %}
+</ul>
+
+<p>Valor restante: {{ valor_restante }}</p>
+
+
+{%endblock%}

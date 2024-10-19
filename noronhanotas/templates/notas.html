@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %}Notas {% endblock %}
+
+{% block conteudo %}
+        
+
+<div style="display: flex; justify-content: space-around;;">
+    <h2>Notas</h2>
+    <a href="{% url 'criarnota' %}"><button class="btn btn-primary">Nova nota</button> </a>
+
+</div>
+    <hr>
+    
+                  <div class="table-responsive" style="margin-bottom: 10%;">
+                    <table class="table table-striped table-sm">
+                    <thead>
+                        <tr>
+                        <th>#</th>
+                        <th>Nome</th>
+                        <th>Valor(R$)</th>
+                        <th>Data</th>
+                        <th>Status</th>
+                        <th>Recebimento</th>
+                        <th>Atrasada</th>
+                        </tr>
+                    </thead>
+                    {% for nota in notas %}
+                    <tbody>
+                        <tr>
+                        <td>{{nota.id}}</td>
+                        <td>{{nota.pessoa}}</td>
+                        <td>{{nota.valor}}</td>
+                        <td>{{nota.data}}</td>
+                        <td>{{nota.status}}</td>
+                        <td>{{nota.dataRecebimento}}</td>
+                        <td>{{nota.atrasada}}</td>
+                        <td><a href="#"> <i class="fas fa-edit"></i></a>
+                        <a href="#"><i class="fas fa-trash-alt"></i></a>
+                        </td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+    
+                </div>
+
+      
+ 
+{% endblock %}
+
+ 

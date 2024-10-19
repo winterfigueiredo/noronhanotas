@@ -1,0 +1,235 @@
+{% extends "base.html" %}
+
+{% load static %}
+{% load custom_filters %}
+{% block title %} Início {% endblock %}
+
+
+{% block conteudo %}
+  <div>
+    <h3>Olá, {{user.username}}. </h3>
+    <h6>Você tem {{somanotas|currency}} a receber, dos quais {{atrasadas|currency}} são de notas atrasadas.</h6>
+    <h6>Esse mês, você recebeu {{recebidoAtual | currency}} e vendeu {{vendaAtual | currency}}.</h6>
+  </div>
+
+
+  <div class="container">
+    <!-- <div class="row" style="font-size: 20px;">
+      <div class="col-6"> {{npessoas}} Clientes</div>
+      <div class="col-6">{{notas}} Notas</div>
+    </div> -->
+   
+    <div class="row">
+      <div class="col-4">
+        <div class="div row"> {{somanotas|currency}} a receber</div>
+        <div class="div row"> <canvas id="notasPendentes" width="400" height="200"></canvas>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="div row"> {{atrasadas|currency}} atrasados</div>
+        <div class="div row"> <canvas id="notasAtrasadas" width="400" height="200"></canvas>
+
+      </div>
+      </div>
+      <div class="col-4">
+        <div class="div row"> {{recebidos|currency}} recebidos</div>
+        <div class="div row"> <canvas id="notasRecebidas" width="400" height="200"></canvas>
+      </div>
+
+    </div>
+  </div>
+
+  <div>
+    <canvas height="100px">
+
+  </canvas></div>
+ 
+
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
+
+   <script>
+    const meses = JSON.parse('{{ meses|escapejs }}');
+    const somaNotasPendentes = JSON.parse('{{ somaNotasPendentes|escapejs }}');
+    const somaNotasPagas = JSON.parse('{{ somaNotasPagas|escapejs }}');
+    const somaNotasAtrasadas = JSON.parse('{{ somaNotasAtrasadas|escapejs }}');
+
+    const ctx = document.getElementById('notasPendentes').getContext('2d');
+    const notasChart = new Chart(ctx, {
+            type: 'line',  // Gráfico de barras
+            data: {
+                labels: meses,  // Meses no eixo X
+                datasets: [
+                    {
+                        label: 'Notas Pendentes',
+                        data: somaNotasPendentes,
+                        backgroundColor: 'rgba(255, 99, 132, 0.2)',  // Cor das barras
+                        borderColor: 'rgba(255, 165, 0, 1)',  // Cor da borda
+                        borderWidth: 1
+                    },
+                ]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true ,
+                        grid: {display:false} // O eixo Y começa do zero
+                    },
+                    x:{
+                      grid:{display:false},
+                    }
+                }
+            }
+            
+        });
+
+    const ctx2 = document.getElementById('notasRecebidas').getContext('2d');
+    const notasChart2 = new Chart(ctx2, {
+      type: 'line',  // Gráfico de barras
+            data: {
+                labels: meses,  // Meses no eixo X
+                datasets: [
+                    {
+                        label: 'Notas Recebidas',
+                        data: somaNotasPagas,
+                        backgroundColor: 'rgba(54, 162, 235, 1)',  // Cor das barras
+                        borderColor: 'rgba(54, 162, 235, 1)',  // Cor da borda
+                        borderWidth: 1
+                    },
+                  ],
+                },
+            options: {
+              scales: {
+                    y: {
+                        beginAtZero: true ,
+                        grid: {display:false} // O eixo Y começa do zero
+                    },
+                    x:{
+                      grid:{display:false},
+                    }
+                }
+            }
+        });
+    const ctx3 = document.getElementById('notasAtrasadas').getContext('2d');
+    const notasChart3 = new Chart(ctx3, {
+      type: 'line',  // Gráfico de barras
+            data: {
+                labels: meses,  // Meses no eixo X
+                datasets: [
+                    {
+                        label: 'Notas Atrasadas',
+                        data: somaNotasAtrasadas,
+                        backgroundColor: 'rgba(255, 99, 132, 0.2)',  // Cor das barras
+                        borderColor: 'rgba(255, 99, 132, 1)',  // Cor da borda
+                        borderWidth: 1
+                    },
+                    
+                ]
+            },
+                 
+            options: {
+              scales: {
+                    y: {
+                        beginAtZero: true ,
+                        grid: {display:false} // O eixo Y começa do zero
+                    },
+                    x:{
+                      grid:{display:false},
+                    }
+                }
+            }
+        });
+          // Gráfico de duas linhas ao mesmo tempo
+    //const ctx3 = document.getElementById('todasNotas').getContext('2d');
+    // const notasChart3 = new Chart(ctx3, {
+    //   type: 'bar',  // Gráfico de barras
+    //         data: {
+    //             labels: meses,  // Meses no eixo X
+    //             datasets: [
+    //                 {
+    //                     label: 'Notas Recebidas',
+    //                     data: somaNotasPagas,
+    //                     backgroundColor: 'rgba(255, 99, 132, 0.2)',  // Cor das barras
+    //                     borderColor: 'rgba(255, 99, 132, 1)',  // Cor da borda
+    //                     borderWidth: 1
+    //                 },
+    //                 {
+    //                     label: 'Notas Pendentes',
+    //                     data: somaNotasPendentes,
+    //                     backgroundColor: 'rgba(54, 162, 235, 1)',  // Cor das barras
+    //                     borderColor: 'rgba(54, 162, 235, 1)',  // Cor da borda
+    //                     borderWidth: 1
+    //                 },
+    //             ]
+    //         },
+                 
+    //         options: {
+    //             scales: {
+    //                 y: {
+    //                     beginAtZero: true  // O eixo Y começa do zero
+    //                 }
+    //             }
+    //         }
+    //     });
+    </script>
+ 
+
+
+
+
+
+    <div class="row" style="justify-content: space-around;">
+      <div class="col-3"><h3>Clientes</h3></div>
+      <hr>
+      <div class="col-6">
+        <form method="GET" action="{% url 'cliente' %}">
+          <input type="text"  name="query" placeholder="Nome do cliente" >
+          <button type="submit" class="btn btn-info">Buscar cliente</button>
+        </form>
+      </div>
+
+    </div>
+   
+    
+    <div class="table table-hover" style="margin-bottom: 10%;">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Nome</th>
+            <th>Telefone</th>
+            <th>Valor (R$)</th>
+            <th>Saldo (R$)</th>
+            <th>Ver notas</th>
+          </tr>
+        </thead>
+        {% for pessoa in pessoas %}
+        <tbody>
+          <tr>
+            <td>{{pessoa.id}}</td>
+            <td>{{pessoa.nome}}</td>
+            <td>{{pessoa.telefone}}</td>
+            <td>{{pessoa.soma_notas}}</td>
+            <td>{{pessoa.saldo}}</td>
+            <td>
+              <a href="{% url 'vernotas' pessoa.id %}">Notas</a>
+            </td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+
+    
+{% endblock %}
+
+
+
+
+
+
+
+

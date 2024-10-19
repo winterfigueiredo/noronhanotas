@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}Novo Cliente {% endblock %}
+
+{% block conteudo %}
+ 
+<body>
+    <div class="container-fluid mb-3 col p-5 m-3">
+       <h2>Novo Cliente</h2>
+       <form action="{% url 'salvar' %}" method="POST">
+        {% csrf_token %}
+        <div class="form-floating mb-3" >
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="name"  required name = 'nome' >
+                <label for="floatingInput">Nome</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="int" class="form-control" id="cpf" required name = 'cpf' maxlength="11" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 11);" value="000000000" />
+                <label for="floatingInput">CPF</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="endereco" required  name = 'endereco' value="Tarumã, Tocantins" >
+                <label for="floatingInput">Endereço</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="endereco" required name = 'telefone' value="63981011101" >
+                <label for="floatingInput">Telefone</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary"> Adicionar cliente</button>
+            
+
+        </form>
+         <a button href="{% url 'cliente' %}" class="btn btn-danger"> Cancelar</button> </a>
+    </div>
+
+ {%endblock%}
+

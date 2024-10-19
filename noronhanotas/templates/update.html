@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}Editar cliente {% endblock %}
+
+{% block conteudo %}
+        
+    <div>
+        {{ pessoa.id }} - {{pessoa.nome}} 
+        <h2>Editar Cliente</h2>
+        <div class="container-fluid mb-3 col p-5 m-3">
+          <h2>Novo Cliente</h2>
+          <form action="{% url 'update' pessoa.id %}" method="POST">
+           {% csrf_token %}
+           <div class="form-floating mb-3" >
+               <div class="form-floating mb-3">
+                   <input type="text" class="form-control" id="name" name = 'nome' value="{{pessoa.nome}}" >
+                   <label for="floatingInput">Nome</label>
+               </div>
+               <div class="form-floating mb-3"></div>
+                <input type="int" class="form-control" id="cpf" required name = 'cpf' maxlength="11" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 11);" value="{{pessoa.cpf}}"/>
+                <label for="floatingInput">CPF</label>
+            </div>
+               <div class="form-floating mb-3">
+                   <input type="text" class="form-control" id="endereco" name = 'endereco' value="{{pessoa.endereco}}">
+                   <label for="floatingInput">Endereço</label>
+               </div>
+               <div class="form-floating mb-3">
+                   <input type="text" class="form-control" id="endereco" name = 'telefone'value="{{pessoa.telefone}}" >
+                   <label for="floatingInput">Telefone</label>
+               </div>
+   
+               <button type="submit" class="btn btn-primary"> Salvar</button>
+   
+           </form> 
+       </div>
+        <ul>
+          {% for pessoa in pessoas %}
+            <li>{{ pessoa.id }} - {{pessoa.nome}} <a href="{% url 'editar' pessoa.id %}">Editar</a></li>
+          {% endfor %}
+        </ul>
+    </div>
+
+    {%endblock%}

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{%block title %} Editar nota {% endblock %}
+
+
+{%block conteudo %}
+        <h2>Editar Nota</h2>
+
+        <div class="container-fluid mb-3 col p-5 m-3">
+         <form  method="POST">
+           {% csrf_token %}
+           <div class="form-floating mb-3" >
+
+               <div class="form-floating mb-3">
+                   <input type="select" class="form-control" id="name" name = 'nome' value="{{pessoa.nome}}" disabled >
+                   <label for="floatingInput">Nome</label>
+               </div> 
+               <div class="form-floating mb-3">
+                   <input type="date" class="form-control" id="endereco" name = 'data' value ={{nota.data}}>
+                   <label for="floatingInput">Data</label>
+               </div>
+               <div class="form-floating mb-3">
+                   <input type="float" class="form-control" id="endereco" name = 'valor' value="{{nota.valor}}" >
+                   <label for="floatingInput">Valor</label>
+               </div>
+   
+               <button type="submit" class="btn btn-primary"> Salvar</button>
+   
+           </form> 
+       </div>
+    </div>
+{% endblock %}

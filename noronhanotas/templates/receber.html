@@ -1,0 +1,28 @@
+{%extends "base.html" %}
+
+{% block title %} Receber notas {%endblock%}
+
+{%block conteudo%}
+
+<div class="container-fluid mb-3 col p-5 m-3">
+  <form action="{% url 'darBaixa' pessoa.id %}" method="POST">
+   <h2>
+    Receber notas
+   </h2>
+   <h3>{{pessoa.nome}}</h3>
+    {% csrf_token %}
+   <div class="form-floating mb-3" >
+       <div class="form-floating mb-3">
+           <input type="number" class="form-control" required id="valorRecebido" name = 'valorRecebido' >
+           <label for="floatingInput">Valor</label>
+       </div>
+       <div class="form-floating mb-3">
+        <input type="date" class="form-control" id="dataRecebimento" name = 'dataRecebimento' value= {{data}}>
+        <label for="floatingInput">Data</label>
+    </div>
+
+       <button type="submit" class="btn btn-primary"> Salvar</button>
+
+   </form> 
+
+{%endblock%}

@@ -1,0 +1,37 @@
+{%extends "base.html" %}
+
+{%block title%}  Nova nota {%endblock%}
+{%block conteudo %}
+    <div>
+        <h2>Nova Nota</h2>
+        <div class="container-fluid mb-3 col-6 p-5 m-3">
+          <h3>{{pessoa.nome}} </h3>
+          <form action="{% url 'salvarnota' pessoa.id %}" method="POST">
+           {% csrf_token %}
+           <div class="form-floating mb-3" >
+               <div class="form-floating mb-3">
+                   <input type="text" class="form-control" id="name" name = 'nome' value="{{pessoa.nome}}" disabled >
+                   <label for="floatingInput">Nome</label>
+               </div> 
+               <div class="row">
+                <div class="col">
+                    <div class="form-floating mb-3">
+                        <input type="number" class="form-control" autofocus tabindex="1" min="0" step="0.01" placeholder="0,00" required id="endereco" name = 'valor' >
+                        <label for="floatingInput">Valor</label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-floating mb-3">
+                        <input type="date" class="form-control" id="data" tabindex="2"  name = 'data'  value= {{data}} >
+                        <label for="floatingInput">Data</label>
+                    </div>
+                </div>
+               </div>
+               
+  
+               <button type="submit" class="btn btn-primary"> Salvar</button>
+   
+           </form> 
+       </div>
+    </div>
+{%endblock%}
