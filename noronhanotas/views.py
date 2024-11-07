@@ -23,18 +23,16 @@ from django.contrib.auth.decorators import login_required
 def landing(request):
     return render(request, 'landing.html')
 
+
 # Create your views here.
 def home(request):
     if  request.user.is_authenticated:
-        Notas.atualizar_vencidas()
-        # pessoas = Pessoa.objects.all().order_by('somanotas')
-        pessoas = Pessoa.objects.order_by('-somanotas').all()
-        npessoas = Pessoa.objects.count()
+        pessoas = Pessoa.objects.all().order_by('-somanotas')
+        pessoas_filtradas = Pessoa.objects.filter(valoratrasado__gt=1000).order_by('-valoratrasado')
+        total_soma_notas = sum(pessoa.somanotas for pessoa in pessoas_filtradas)
         notas  = Notas.objects.all()
         notasPendentes = Notas.objects.filter(status = 'pendente')
-        notasCount = notasPendentes.count()
-        somanotas = notasPendentes.aggregate(Sum('valor'))['valor__sum'] or 0
-        somanotas = float(somanotas)
+        somanotas = float(notasPendentes.aggregate(Sum('valor'))['valor__sum'] or 0)
         notasPagas = notas.filter(status = 'pago')
         notasPagasSum = float(notasPagas.aggregate(Sum('valor'))['valor__sum'] or 0)
         notasAtrasadas = notas.filter(atrasada = 'sim', status='pendente')
@@ -58,26 +56,22 @@ def home(request):
         somaNotasPendentes = [pendentes_dict.get(mes, 0) for mes in todos_os_meses]
         somaNotasPagas = [pagas_dict.get(mes, 0) for mes in todos_os_meses]
         somaNotasAtrasadas = [atrasadas_dict.get(mes, 0) for mes in todos_os_meses]
-        # somaNotasAtrasadas = [atrasadas_dict.get(mes, 0) for mes in todos_os_meses]
         
         contexto = {
             "pessoas": pessoas,
-            "npessoas" : npessoas,
             'somanotas': somanotas,
             'vendaAtual': vendaAtual,
             'recebidoAtual': recebidoAtual, 
-            'notas':notasCount,
             'recebidos': notasPagasSum,
             'atrasadas': notasAtrasadasSum,
-            # 'meses': json.dumps(todos_os_meses),  # Enviar os meses como JSON
-            # 'somaNotasPendentes': json.dumps(somaNotasPendentes),  # Valores das notas pendentes
-            # 'somaNotasPagas': json.dumps(somaNotasPagas),
             "meses": json.dumps(todos_os_meses),  # Enviar os meses como JSON
             "somaNotasPendentes": json.dumps(somaNotasPendentes),  # Valores das notas pendentes como JSON
             "somaNotasPagas": json.dumps(somaNotasPagas),
             "somaNotasAtrasadas": json.dumps(somaNotasAtrasadas),
             "recebidoMes": json.dumps(float(recebidoAtual)),
-            "vendaMes": json.dumps(float(vendaAtual))
+            "vendaMes": json.dumps(float(vendaAtual)),
+            'pessoas_filtradas': pessoas_filtradas,
+            'total_soma_notas': total_soma_notas
         }
         
         return render(request, "index.html", contexto)
@@ -110,9 +104,8 @@ def cliente(request):
         } 
         return render(request, "clientes.html",context)
        
-        
-    
-       
+      
+           
 @login_required
 def notas(request):
     notas = Notas.objects.all()
@@ -228,7 +221,6 @@ def novocliente(request):
 
 @login_required
 def vernotas(request, id):
-    Notas.atualizar_vencidas()
     pessoa = Pessoa.objects.get(id=id)
     notas = Notas.objects.filter(pessoa=pessoa.id)
     notasPendentes = notas.filter(status ='pendente')
@@ -256,7 +248,8 @@ def darBaixa (request, id):
     # Calcular o valor total dos boletos pendentes
     total_pendentes = notasPendentes.aggregate(Sum('valor'))['valor__sum'] or 0
     total_pendentes = Decimal(total_pendentes)
-    saldo = int(pessoa.saldo)
+    saldo = pessoa.saldo
+    # saldo = int(pessoa.saldo)
     saldo += valor_inserido 
 
     valor_restante = valor_inserido
@@ -298,8 +291,11 @@ def receber(request, id):
 @login_required
 def receberNota(request, id):
     pessoa = Pessoa.objects.get(id=id)
+    somaNotas = pessoa.somanotas
+    valorPendente =  pessoa.valorpendente
+    
     data = date.today().strftime('%Y-%m-%d')
-    return render(request, "receber.html", {'pessoa':pessoa, 'data':data})
+    return render(request, "receber.html", {'pessoa':pessoa, 'data':data,'somaNotas': somaNotas,'valorPendente':valorPendente})
 
 
 

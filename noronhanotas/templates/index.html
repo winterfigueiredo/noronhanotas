@@ -181,7 +181,9 @@
 
 
     <div class="row" style="justify-content: space-around;">
-      <div class="col-3"><h3>Clientes</h3></div>
+      <div class="col-6"><h3>Principais clientes devedores</h3>
+      {{total_soma_notas | currency}}
+    </div>
       <hr>
       <div class="col-6">
         <form method="GET" action="{% url 'cliente' %}">
@@ -192,42 +194,42 @@
 
     </div>
    
-    
-    <div class="table table-hover" style="margin-bottom: 10%;">
+   
+    <div class="table table-hover"  style="margin-bottom: 10%;">
+
       <table class="table">
         <thead>
           <tr>
-            <th>#</th>
             <th>Nome</th>
-            <th>Telefone</th>
-            <th>Valor (R$)</th>
+            <th>Valor Total (R$)</th>
+            <th>Valor Pendente (R$)</th>
             <th>Saldo (R$)</th>
+            <th>Valor Atrasado (R$)</th>
             <th>Ver notas</th>
           </tr>
         </thead>
-        {% for pessoa in pessoas %}
         <tbody>
-          <tr>
-            <td>{{pessoa.id}}</td>
-            <td>{{pessoa.nome}}</td>
-            <td>{{pessoa.telefone}}</td>
-            <td>{{pessoa.soma_notas}}</td>
-            <td>{{pessoa.saldo}}</td>
-            <td>
-              <a href="{% url 'vernotas' pessoa.id %}">Notas</a>
-            </td>
-          </tr>
-        {% endfor %}
+          {% for pessoa in pessoas_filtradas|dictsortreversed:"somanotas" %}
+                <tr>
+                  <td>{{pessoa.nome}}</td>
+                  <td>{{pessoa.somanotas}}</td>
+                  <td>{{pessoa.valorpendente}}</td>
+                  <td>{{pessoa.saldo}}</td>
+                  <td> {{pessoa.valoratrasado}}</td>
+                  <td>
+                    <a href="{% url 'vernotas' pessoa.id %}">Notas</a>
+                  </td>
+                </tr>
+          {% empty %}
+              <tr>
+                <td colspan="6">Nenhum registro encontrado.</td>
+              </tr>
+          {% endfor %}
         </tbody>
       </table>
     </div>
-
-
-    
+  
 {% endblock %}
-
-
-
 
 
 

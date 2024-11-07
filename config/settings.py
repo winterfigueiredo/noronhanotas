@@ -27,7 +27,7 @@ SECRET_KEY = '7$4=xqd8h!1w=r7!b31o&thkum^jkf&5y4)5u+d$vfg)t&csdf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 LOGIN_URL = '/landing/'
-ALLOWED_HOSTS = ['winterfigueiredo.pythonanywhere.com']
+ALLOWED_HOSTS = ['winterfigueiredo.pythonanywhere.com','127.0.0.1']
 
 
 # Application definition
@@ -76,16 +76,20 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
+# DATABASES = {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME':' winterfigueiredo$default',
+#         'USER': 'winterfigueiredo',
+#         'PASSWORD': '@W1nt3r',
+#         'HOST': 'winterfigueiredo.mysql.pythonanywhere-services.com',
+#         'PORT': '3306',
+# }
 DATABASES = {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME':' winterfigueiredo$default',
-        'USER': 'winterfigueiredo',
-        'PASSWORD': '@W1nt3r',
-        'HOST': 'winterfigueiredo.mysql.pythonanywhere-services.com',
-        'PORT': '3306',
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
 }
-
-
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 

@@ -22,3 +22,7 @@
     color: #007BFF;
     font-weight: bold;
 }
+
+.table-danger {
+    background-color: #f8d7da !important;
+}

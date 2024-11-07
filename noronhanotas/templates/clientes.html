@@ -48,7 +48,7 @@
       <div class="col-10">
         <form method="GET" action="{% url 'cliente' %}">
           <input type="text" name="query" placeholder="Nome do cliente">
-        <button type="submit" class="btn btn-info">Buscar cliente</button>
+        <button type="submit" name="buscarCliente" class="btn btn-info">Buscar cliente</button>
       </div>
       <div class="col-2"> 
         <a href="{% url 'novocliente' %}" class="btn btn-primary">Novo cliente</button> </a>
@@ -80,7 +80,7 @@
                       <td>{{pessoa.id}}</td>
                       <td>{{pessoa.nome}}</td>
                       <td>{{pessoa.telefone}}</td>
-                      <td>{{pessoa.soma_notas}}</td>
+                      <td>{{pessoa.somanotas}}</td>
                       <td>
                         <a href="{% url 'vernotas' pessoa.id %}">Notas</a>
                         <a href="{% url 'editar' pessoa.id %}">Editar</a>
@@ -94,4 +94,12 @@
 </body>
 
 {% endblock %}
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("buscarCliente").focus();
+});
+</script>
+
 </html>
+

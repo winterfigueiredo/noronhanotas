@@ -91,12 +91,11 @@ button:hover{
 				<form action="{% url 'autenticar' %}" method="POST">
 					{% csrf_token %}
 						<div style="justify-content: center; padding: 20px; align-items: center; display: flex;" >
-							<img src="logo.png" width="90px" height="100px" alt="logo">
 						</div>
 					<div>
 						<label aria-hidden="false">Noronha Notas</label>
-						<input type="text" name="user" placeholder="Usuário" required="" >
-						<input type="password" name="pswd" placeholder="Senha" required="" >
+						<input type="text" name="user" placeholder="Usuário" required=""  >
+						<input type="password" name="pswd" placeholder="Senha" required=""  >
 					</div>
 					<button>Login</button>
 				</form>
