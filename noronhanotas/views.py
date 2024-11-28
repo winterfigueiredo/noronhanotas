@@ -270,12 +270,15 @@ def darBaixa (request, id):
             pessoa.saldo =saldo
             pessoa.save() 
                 # Criar mensagem de erro
-    contexto = {
-        'boletos': notas_para_baixa,
-        'valor_restante': valor_restante,
-        'pessoa': pessoa,
-        }
-    return render(request, 'baixa_sucesso.html', contexto)
+    # contexto = {
+    #     'boletos': notas_para_baixa,
+    #     'valor_restante': valor_restante,
+    #     'pessoa': pessoa,
+    #     }
+    # return render(request, 'baixa_sucesso.html', contexto)
+
+    
+    return redirect(vernotas, pessoa.id)
                    
 @login_required
 def receber(request, id):

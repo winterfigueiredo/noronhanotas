@@ -11,6 +11,7 @@
    </h2>
    <div style="display: flex; justify-content: space-between;">
         <h3>{{pessoa.nome}}</h3>
+        <h2>{{pessoa.valorpendente}}</h2>
         <!-- <h6>Valor Pendente: {{valor}}</h6> 
         <h6>Valor Saldo: {{pessoa.somanotas}}</h6> 
         <h6>Saldo: {{pessoa.saldo}}</h6> 
@@ -28,8 +29,11 @@
         <label for="floatingInput">Data</label>
     </div>
 
-       <button type="submit" class="btn btn-primary"> Salvar</button>
+       
 
    </form> 
+   <a href="{% url 'vernotas' pessoa.id %}"><button type="button" class="btn btn-danger">Cancelar</button> </a>
+
+   <button type="submit"  class="btn btn-primary"> Salvar</button>
 
 {%endblock%}

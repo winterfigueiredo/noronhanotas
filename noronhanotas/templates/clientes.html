@@ -71,7 +71,8 @@
                       <th>Nome</th>
                       <th>Telefone</th>
                       <th>Valor (R$)</th>
-                      <th>Ações</th>
+                      <th>Ver notas</th>
+                      <th>Editar</th>
                       </tr>
                   </thead>
                   {% for pessoa  in pessoas %}
@@ -81,10 +82,9 @@
                       <td>{{pessoa.nome}}</td>
                       <td>{{pessoa.telefone}}</td>
                       <td>{{pessoa.somanotas}}</td>
-                      <td>
-                        <a href="{% url 'vernotas' pessoa.id %}">Notas</a>
-                        <a href="{% url 'editar' pessoa.id %}">Editar</a>
-                        <a href="{% url 'excluir' pessoa.id %}">Excluir</a>
+                      <td> <a href="{% url 'vernotas' pessoa.id %}"><i class="bi bi-journal-plus"></i>Ver Notas</a></td>
+                      <td> <a href="{% url 'editar' pessoa.id %}"><i class="bi bi-pencil-square"></i>Editar</a></td>
+                        <!-- <a href="{% url 'excluir' pessoa.id %}">Excluir</a> -->
                     </td>
                     </tr>
                   {% endfor %}
