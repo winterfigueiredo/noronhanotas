@@ -55,32 +55,3 @@ class Notas(models.Model):
     def __str__(self):
         return f"{self.pessoa.nome} {self.valor}"
 
-# choices_recebedor =  ["Elza", "João", "Grazy"]
-# choices_forma_pagamento = ['cartão crédito', 'cartão débito', 'pix', 'dinheiro']
-
-# class Pagamentos(models.Model):
-#     pessoa = models.ForeignKey(Pessoa, related_name='pagamentos', on_delete=models.CASCADE)
-#     valor = models.DecimalField(max_digits=10,decimal_places=2, default=0)
-#     data = models.DateField()
-#     recebedor = models.Choices(choices_recebedor)
-#     forma_pagamento = models.Choices(choices_forma_pagamento)
-
-    
-    
-#     def __str__(self):
-#         return f"{self.pessoa.nome} {self.valor}"
-    
-
-
-    
-    # def salvar_vencimento(self):
-    #     if self.data:
-    #         # self.vencimento = F(self.data) + timedelta(days=30)
-    #         self.data_venc = self.data + timedelta(days=30)
-    #     super(Notas, self).save()
-
-    # def save(self, *args, **kwargs):
-    #     self.salvar_vencimento()
-    #     super().save(*args, **kwargs)
-    
-# Notas.objects.update(vencimento=F('data') + timedelta(days=30))
