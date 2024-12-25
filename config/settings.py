@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
+from decouple import config
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,7 +29,7 @@ SECRET_KEY = '7$4=xqd8h!1w=r7!b31o&thkum^jkf&5y4)5u+d$vfg)t&csdf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 LOGIN_URL = '/landing/'
-ALLOWED_HOSTS = ['noronhanotas.onrender.com','127.0.0.1']
+ALLOWED_HOSTS = ['noronhanotas.onrender.com','127.0.0.1','0.0.0.0']
 
 
 # Application definition
@@ -77,19 +79,24 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 # DATABASES = {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME':' winterfigueiredo$default',
-#         'USER': 'winterfigueiredo',
-#         'PASSWORD': '@W1nt3r',
-#         'HOST': 'winterfigueiredo.mysql.pythonanywhere-services.com',
-#         'PORT': '3306',
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
 # }
+#Migrar a base de dados para postgress
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dbnoronhanotas',
+        'USER': 'dbnoronhanotas_user',
+        'PASSWORD':  'nZYJ8y18kHJa3w7f6xjZOugMnpL6cpDf',
+        'HOST': 'dpg-ctkblo3qf0us739gp3o0-a.oregon-postgres.render.com',
+        'PORT': 5432,
     }
 }
+
+
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
