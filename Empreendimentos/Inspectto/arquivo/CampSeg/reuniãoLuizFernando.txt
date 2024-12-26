@@ -1,0 +1,23 @@
+Reunião Luiz Fernando
+
+- Definir requisitos para análise;
+- Coletar dados das empresas para criar os indicadores e  comparar;
+- Criar uma índice de concordância;
+- Relação do Percentual de dependência econômica por número de cliente;
+- Monitoramento por seis meses para avaliação de empresas que queiram melhorar os indicadores;
+- Validação com avaliação de especialistas, para comparação da classificação gerada pelo software e pelos especialistas;
+- Testar método atual e gerar novos métodos, baseados no método científico;
+- Econômico-financeiro como classificatório;
+
+Sugestões
+Fase 1 - monitorameto dos indicadores;
+Fase 2 - classificação de risco;
+
+
+Análise de componentes principais;
+Portal de dados abertos
+
+
+Criar orçamento para os serviços de:
+Consultoria em business intelligence
+Contraro PF;

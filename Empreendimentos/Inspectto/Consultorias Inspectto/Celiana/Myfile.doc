@@ -1,0 +1,1873 @@
+{\rtf1\ansi\deff0 {\fonttbl{\f0\fnil Garamond;}}
+{\info {\author .}{\company .}{\title .}}
+\deflang1033\plain\fs20
+{\footer\pard\qc\plain\f0\fs20\chpgn\par}
+{
+\sectd \lndscpsxn\pgwsxn16840\pghsxn11901
+{\fs20\b\qc\line Spearman's rank correlation coefficients  }{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx1760
+\fs20\pard\intbl\ql { {Variables}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx2663
+\fs20\pard\intbl\qr { {(1)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx3566
+\fs20\pard\intbl\qr { {(2)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx4469
+\fs20\pard\intbl\qr { {(3)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx5371
+\fs20\pard\intbl\qr { {(4)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx6274
+\fs20\pard\intbl\qr { {(5)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx7177
+\fs20\pard\intbl\qr { {(6)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx8080
+\fs20\pard\intbl\qr { {(7)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx8983
+\fs20\pard\intbl\qr { {(8)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx9886
+\fs20\pard\intbl\qr { {(9)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx10789
+\fs20\pard\intbl\qr { {(10)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx11691
+\fs20\pard\intbl\qr { {(11)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx12594
+\fs20\pard\intbl\qr { {(12)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx13497
+\fs20\pard\intbl\qr { {(13)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx14400
+\fs20\pard\intbl\qr { {(14)}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1760
+\fs20\pard\intbl\ql { {(1) idade}}\cell
+\cellx2663
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1760
+\fs20\pard\intbl\ql { {(2) tempodoença}}\cell
+\cellx2663
+\qr {{0.167}}\cell
+\cellx3566
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1760
+\fs20\pard\intbl\ql { {(3) cvf}}\cell
+\cellx2663
+\qr {{-0.382}}\cell
+\cellx3566
+\qr {{-0.674}}\cell
+\cellx4469
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1760
+\fs20\pard\intbl\ql { {(4) vef1}}\cell
+\cellx2663
+\qr {{-0.267}}\cell
+\cellx3566
+\qr {{-0.343}}\cell
+\cellx4469
+\qr {{0.807}}\cell
+\cellx5371
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1760
+\fs20\pard\intbl\ql { {(5) vef1cvf}}\cell
+\cellx2663
+\qr {{0.566}}\cell
+\cellx3566
+\qr {{0.585}}\cell
+\cellx4469
+\qr {{-0.642}}\cell
+\cellx5371
+\qr {{-0.123}}\cell
+\cellx6274
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1760
+\fs20\pard\intbl\ql { {(6) pfe}}\cell
+\cellx2663
+\qr {{-0.212}}\cell
+\cellx3566
+\qr {{0.209}}\cell
+\cellx4469
+\qr {{0.249}}\cell
+\cellx5371
+\qr {{0.483}}\cell
+\cellx6274
+\qr {{0.109}}\cell
+\cellx7177
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1760
+\fs20\pard\intbl\ql { {(7) pimax}}\cell
+\cellx2663
+\qr {{-0.462}}\cell
+\cellx3566
+\qr {{-0.505}}\cell
+\cellx4469
+\qr {{0.126}}\cell
+\cellx5371
+\qr {{-0.137}}\cell
+\cellx6274
+\qr {{-0.386}}\cell
+\cellx7177
+\qr {{-0.032}}\cell
+\cellx8080
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1760
+\fs20\pard\intbl\ql { {(8) lipimax}}\cell
+\cellx2663
+\qr {{-0.722}}\cell
+\cellx3566
+\qr {{-0.347}}\cell
+\cellx4469
+\qr {{0.252}}\cell
+\cellx5371
+\qr {{0.004}}\cell
+\cellx6274
+\qr {{-0.505}}\cell
+\cellx7177
+\qr {{0.200}}\cell
+\cellx8080
+\qr {{0.895}}\cell
+\cellx8983
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1760
+\fs20\pard\intbl\ql { {(9) pimsent}}\cell
+\cellx2663
+\qr {{-0.497}}\cell
+\cellx3566
+\qr {{-0.310}}\cell
+\cellx4469
+\qr {{0.482}}\cell
+\cellx5371
+\qr {{0.331}}\cell
+\cellx6274
+\qr {{-0.374}}\cell
+\cellx7177
+\qr {{0.533}}\cell
+\cellx8080
+\qr {{0.454}}\cell
+\cellx8983
+\qr {{0.688}}\cell
+\cellx9886
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1760
+\fs20\pard\intbl\ql { {(10) pimsup}}\cell
+\cellx2663
+\qr {{-0.495}}\cell
+\cellx3566
+\qr {{-0.215}}\cell
+\cellx4469
+\qr {{0.435}}\cell
+\cellx5371
+\qr {{0.378}}\cell
+\cellx6274
+\qr {{-0.308}}\cell
+\cellx7177
+\qr {{0.582}}\cell
+\cellx8080
+\qr {{0.417}}\cell
+\cellx8983
+\qr {{0.663}}\cell
+\cellx9886
+\qr {{0.929}}\cell
+\cellx10789
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1760
+\fs20\pard\intbl\ql { {(11) sara}}\cell
+\cellx2663
+\qr {{0.391}}\cell
+\cellx3566
+\qr {{0.682}}\cell
+\cellx4469
+\qr {{-0.588}}\cell
+\cellx5371
+\qr {{-0.411}}\cell
+\cellx6274
+\qr {{0.443}}\cell
+\cellx7177
+\qr {{-0.226}}\cell
+\cellx8080
+\qr {{-0.767}}\cell
+\cellx8983
+\qr {{-0.694}}\cell
+\cellx9886
+\qr {{-0.540}}\cell
+\cellx10789
+\qr {{-0.555}}\cell
+\cellx11691
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1760
+\fs20\pard\intbl\ql { {(12) icars}}\cell
+\cellx2663
+\qr {{0.504}}\cell
+\cellx3566
+\qr {{0.607}}\cell
+\cellx4469
+\qr {{-0.587}}\cell
+\cellx5371
+\qr {{-0.432}}\cell
+\cellx6274
+\qr {{0.432}}\cell
+\cellx7177
+\qr {{-0.284}}\cell
+\cellx8080
+\qr {{-0.734}}\cell
+\cellx8983
+\qr {{-0.755}}\cell
+\cellx9886
+\qr {{-0.745}}\cell
+\cellx10789
+\qr {{-0.756}}\cell
+\cellx11691
+\qr {{0.939}}\cell
+\cellx12594
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1760
+\fs20\pard\intbl\ql { {(13) berlim}}\cell
+\cellx2663
+\qr {{0.302}}\cell
+\cellx3566
+\qr {{0.338}}\cell
+\cellx4469
+\qr {{-0.533}}\cell
+\cellx5371
+\qr {{-0.599}}\cell
+\cellx6274
+\qr {{0.105}}\cell
+\cellx7177
+\qr {{-0.511}}\cell
+\cellx8080
+\qr {{-0.051}}\cell
+\cellx8983
+\qr {{-0.156}}\cell
+\cellx9886
+\qr {{-0.493}}\cell
+\cellx10789
+\qr {{-0.307}}\cell
+\cellx11691
+\qr {{0.230}}\cell
+\cellx12594
+\qr {{0.315}}\cell
+\cellx13497
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1760
+\fs20\pard\intbl\ql { {(14) borg}}\cell
+\cellx2663
+\qr {{-0.156}}\cell
+\cellx3566
+\qr {{0.362}}\cell
+\cellx4469
+\qr {{-0.200}}\cell
+\cellx5371
+\qr {{-0.307}}\cell
+\cellx6274
+\qr {{-0.263}}\cell
+\cellx7177
+\qr {{-0.175}}\cell
+\cellx8080
+\qr {{-0.314}}\cell
+\cellx8983
+\qr {{-0.214}}\cell
+\cellx9886
+\qr {{-0.420}}\cell
+\cellx10789
+\qr {{-0.335}}\cell
+\cellx11691
+\qr {{0.378}}\cell
+\cellx12594
+\qr {{0.414}}\cell
+\cellx13497
+\qr {{0.358}}\cell
+\cellx14400
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx14400{Spearman rho =    0.358}\cell
+\row}
+{\sect}\sectd
+
+
+\sectd \lndscpsxn\pgwsxn16840\pghsxn11901
+{\fs20\b\qc\line Spearman's rank correlation coefficients  }{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx1210
+\fs20\pard\intbl\ql { {Variables}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx2152
+\fs20\pard\intbl\qr { {(1)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx3094
+\fs20\pard\intbl\qr { {(2)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx4036
+\fs20\pard\intbl\qr { {(3)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx4979
+\fs20\pard\intbl\qr { {(4)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx5921
+\fs20\pard\intbl\qr { {(5)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx6863
+\fs20\pard\intbl\qr { {(6)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx7805
+\fs20\pard\intbl\qr { {(7)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx8747
+\fs20\pard\intbl\qr { {(8)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx9689
+\fs20\pard\intbl\qr { {(9)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx10631
+\fs20\pard\intbl\qr { {(10)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx11574
+\fs20\pard\intbl\qr { {(11)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx12516
+\fs20\pard\intbl\qr { {(12)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx13458
+\fs20\pard\intbl\qr { {(13)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx14400
+\fs20\pard\intbl\qr { {(14)}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(1) sara}}\cell
+\cellx2152
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(2) icars}}\cell
+\cellx2152
+\qr {{0.921}}\cell
+\cellx3094
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(3) cvf}}\cell
+\cellx2152
+\qr {{-0.597}}\cell
+\cellx3094
+\qr {{-0.543}}\cell
+\cellx4036
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(4) vef1}}\cell
+\cellx2152
+\qr {{-0.485}}\cell
+\cellx3094
+\qr {{-0.449}}\cell
+\cellx4036
+\qr {{0.842}}\cell
+\cellx4979
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(5) vef1cvf}}\cell
+\cellx2152
+\qr {{0.363}}\cell
+\cellx3094
+\qr {{0.284}}\cell
+\cellx4036
+\qr {{-0.577}}\cell
+\cellx4979
+\qr {{-0.119}}\cell
+\cellx5921
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(6) pfe}}\cell
+\cellx2152
+\qr {{-0.226}}\cell
+\cellx3094
+\qr {{-0.218}}\cell
+\cellx4036
+\qr {{0.294}}\cell
+\cellx4979
+\qr {{0.476}}\cell
+\cellx5921
+\qr {{0.013}}\cell
+\cellx6863
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(7) pimax}}\cell
+\cellx2152
+\qr {{-0.770}}\cell
+\cellx3094
+\qr {{-0.688}}\cell
+\cellx4036
+\qr {{0.172}}\cell
+\cellx4979
+\qr {{-0.064}}\cell
+\cellx5921
+\qr {{-0.412}}\cell
+\cellx6863
+\qr {{-0.020}}\cell
+\cellx7805
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(8) lipimax}}\cell
+\cellx2152
+\qr {{-0.669}}\cell
+\cellx3094
+\qr {{-0.662}}\cell
+\cellx4036
+\qr {{0.299}}\cell
+\cellx4979
+\qr {{0.055}}\cell
+\cellx5921
+\qr {{-0.557}}\cell
+\cellx6863
+\qr {{0.216}}\cell
+\cellx7805
+\qr {{0.877}}\cell
+\cellx8747
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(9) pimsent}}\cell
+\cellx2152
+\qr {{-0.485}}\cell
+\cellx3094
+\qr {{-0.603}}\cell
+\cellx4036
+\qr {{0.464}}\cell
+\cellx4979
+\qr {{0.319}}\cell
+\cellx5921
+\qr {{-0.412}}\cell
+\cellx6863
+\qr {{0.571}}\cell
+\cellx7805
+\qr {{0.407}}\cell
+\cellx8747
+\qr {{0.650}}\cell
+\cellx9689
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(10) pimsup}}\cell
+\cellx2152
+\qr {{-0.438}}\cell
+\cellx3094
+\qr {{-0.539}}\cell
+\cellx4036
+\qr {{0.409}}\cell
+\cellx4979
+\qr {{0.325}}\cell
+\cellx5921
+\qr {{-0.412}}\cell
+\cellx6863
+\qr {{0.598}}\cell
+\cellx7805
+\qr {{0.362}}\cell
+\cellx8747
+\qr {{0.617}}\cell
+\cellx9689
+\qr {{0.933}}\cell
+\cellx10631
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(11) sara}}\cell
+\cellx2152
+\qr {{1.000}}\cell
+\cellx3094
+\qr {{0.921}}\cell
+\cellx4036
+\qr {{-0.597}}\cell
+\cellx4979
+\qr {{-0.485}}\cell
+\cellx5921
+\qr {{0.363}}\cell
+\cellx6863
+\qr {{-0.226}}\cell
+\cellx7805
+\qr {{-0.770}}\cell
+\cellx8747
+\qr {{-0.669}}\cell
+\cellx9689
+\qr {{-0.485}}\cell
+\cellx10631
+\qr {{-0.438}}\cell
+\cellx11574
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(12) icars}}\cell
+\cellx2152
+\qr {{0.921}}\cell
+\cellx3094
+\qr {{1.000}}\cell
+\cellx4036
+\qr {{-0.543}}\cell
+\cellx4979
+\qr {{-0.449}}\cell
+\cellx5921
+\qr {{0.284}}\cell
+\cellx6863
+\qr {{-0.218}}\cell
+\cellx7805
+\qr {{-0.688}}\cell
+\cellx8747
+\qr {{-0.662}}\cell
+\cellx9689
+\qr {{-0.603}}\cell
+\cellx10631
+\qr {{-0.539}}\cell
+\cellx11574
+\qr {{0.921}}\cell
+\cellx12516
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(13) berlim}}\cell
+\cellx2152
+\qr {{0.284}}\cell
+\cellx3094
+\qr {{0.315}}\cell
+\cellx4036
+\qr {{-0.622}}\cell
+\cellx4979
+\qr {{-0.622}}\cell
+\cellx5921
+\qr {{0.176}}\cell
+\cellx6863
+\qr {{-0.542}}\cell
+\cellx7805
+\qr {{-0.037}}\cell
+\cellx8747
+\qr {{-0.147}}\cell
+\cellx9689
+\qr {{-0.500}}\cell
+\cellx10631
+\qr {{-0.344}}\cell
+\cellx11574
+\qr {{0.284}}\cell
+\cellx12516
+\qr {{0.315}}\cell
+\cellx13458
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(14) borg}}\cell
+\cellx2152
+\qr {{0.410}}\cell
+\cellx3094
+\qr {{0.408}}\cell
+\cellx4036
+\qr {{-0.254}}\cell
+\cellx4979
+\qr {{-0.345}}\cell
+\cellx5921
+\qr {{-0.224}}\cell
+\cellx6863
+\qr {{-0.190}}\cell
+\cellx7805
+\qr {{-0.280}}\cell
+\cellx8747
+\qr {{-0.162}}\cell
+\cellx9689
+\qr {{-0.453}}\cell
+\cellx10631
+\qr {{-0.327}}\cell
+\cellx11574
+\qr {{0.410}}\cell
+\cellx12516
+\qr {{0.408}}\cell
+\cellx13458
+\qr {{0.383}}\cell
+\cellx14400
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx14400{Spearman rho =    0.383}\cell
+\row}
+{\sect}\sectd
+
+
+\sectd \lndscpsxn\pgwsxn16840\pghsxn11901
+{\fs20\b\qc\line Spearman's rank correlation coefficients  }{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx1210
+\fs20\pard\intbl\ql { {Variables}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx2152
+\fs20\pard\intbl\qr { {(1)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx3094
+\fs20\pard\intbl\qr { {(2)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx4036
+\fs20\pard\intbl\qr { {(3)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx4979
+\fs20\pard\intbl\qr { {(4)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx5921
+\fs20\pard\intbl\qr { {(5)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx6863
+\fs20\pard\intbl\qr { {(6)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx7805
+\fs20\pard\intbl\qr { {(7)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx8747
+\fs20\pard\intbl\qr { {(8)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx9689
+\fs20\pard\intbl\qr { {(9)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx10631
+\fs20\pard\intbl\qr { {(10)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx11574
+\fs20\pard\intbl\qr { {(11)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx12516
+\fs20\pard\intbl\qr { {(12)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx13458
+\fs20\pard\intbl\qr { {(13)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx14400
+\fs20\pard\intbl\qr { {(14)}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(1) sara}}\cell
+\cellx2152
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(2) icars}}\cell
+\cellx2152
+\qr {{0.921}}\cell
+\cellx3094
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(3) cvf}}\cell
+\cellx2152
+\qr {{-0.597}}\cell
+\cellx3094
+\qr {{-0.543}}\cell
+\cellx4036
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(4) vef1}}\cell
+\cellx2152
+\qr {{-0.485}}\cell
+\cellx3094
+\qr {{-0.449}}\cell
+\cellx4036
+\qr {{0.842}}\cell
+\cellx4979
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(5) vef1cvf}}\cell
+\cellx2152
+\qr {{0.363}}\cell
+\cellx3094
+\qr {{0.284}}\cell
+\cellx4036
+\qr {{-0.577}}\cell
+\cellx4979
+\qr {{-0.119}}\cell
+\cellx5921
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(6) pfe}}\cell
+\cellx2152
+\qr {{-0.226}}\cell
+\cellx3094
+\qr {{-0.218}}\cell
+\cellx4036
+\qr {{0.294}}\cell
+\cellx4979
+\qr {{0.476}}\cell
+\cellx5921
+\qr {{0.013}}\cell
+\cellx6863
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(7) pimax}}\cell
+\cellx2152
+\qr {{-0.770}}\cell
+\cellx3094
+\qr {{-0.688}}\cell
+\cellx4036
+\qr {{0.172}}\cell
+\cellx4979
+\qr {{-0.064}}\cell
+\cellx5921
+\qr {{-0.412}}\cell
+\cellx6863
+\qr {{-0.020}}\cell
+\cellx7805
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(8) lipimax}}\cell
+\cellx2152
+\qr {{-0.669}}\cell
+\cellx3094
+\qr {{-0.662}}\cell
+\cellx4036
+\qr {{0.299}}\cell
+\cellx4979
+\qr {{0.055}}\cell
+\cellx5921
+\qr {{-0.557}}\cell
+\cellx6863
+\qr {{0.216}}\cell
+\cellx7805
+\qr {{0.877}}\cell
+\cellx8747
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(9) pimsent}}\cell
+\cellx2152
+\qr {{-0.485}}\cell
+\cellx3094
+\qr {{-0.603}}\cell
+\cellx4036
+\qr {{0.464}}\cell
+\cellx4979
+\qr {{0.319}}\cell
+\cellx5921
+\qr {{-0.412}}\cell
+\cellx6863
+\qr {{0.571}}\cell
+\cellx7805
+\qr {{0.407}}\cell
+\cellx8747
+\qr {{0.650}}\cell
+\cellx9689
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(10) pimsup}}\cell
+\cellx2152
+\qr {{-0.438}}\cell
+\cellx3094
+\qr {{-0.539}}\cell
+\cellx4036
+\qr {{0.409}}\cell
+\cellx4979
+\qr {{0.325}}\cell
+\cellx5921
+\qr {{-0.412}}\cell
+\cellx6863
+\qr {{0.598}}\cell
+\cellx7805
+\qr {{0.362}}\cell
+\cellx8747
+\qr {{0.617}}\cell
+\cellx9689
+\qr {{0.933}}\cell
+\cellx10631
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(11) sara}}\cell
+\cellx2152
+\qr {{1.000}}\cell
+\cellx3094
+\qr {{0.921}}\cell
+\cellx4036
+\qr {{-0.597}}\cell
+\cellx4979
+\qr {{-0.485}}\cell
+\cellx5921
+\qr {{0.363}}\cell
+\cellx6863
+\qr {{-0.226}}\cell
+\cellx7805
+\qr {{-0.770}}\cell
+\cellx8747
+\qr {{-0.669}}\cell
+\cellx9689
+\qr {{-0.485}}\cell
+\cellx10631
+\qr {{-0.438}}\cell
+\cellx11574
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(12) icars}}\cell
+\cellx2152
+\qr {{0.921}}\cell
+\cellx3094
+\qr {{1.000}}\cell
+\cellx4036
+\qr {{-0.543}}\cell
+\cellx4979
+\qr {{-0.449}}\cell
+\cellx5921
+\qr {{0.284}}\cell
+\cellx6863
+\qr {{-0.218}}\cell
+\cellx7805
+\qr {{-0.688}}\cell
+\cellx8747
+\qr {{-0.662}}\cell
+\cellx9689
+\qr {{-0.603}}\cell
+\cellx10631
+\qr {{-0.539}}\cell
+\cellx11574
+\qr {{0.921}}\cell
+\cellx12516
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(13) berlim}}\cell
+\cellx2152
+\qr {{0.284}}\cell
+\cellx3094
+\qr {{0.315}}\cell
+\cellx4036
+\qr {{-0.622}}\cell
+\cellx4979
+\qr {{-0.622}}\cell
+\cellx5921
+\qr {{0.176}}\cell
+\cellx6863
+\qr {{-0.542}}\cell
+\cellx7805
+\qr {{-0.037}}\cell
+\cellx8747
+\qr {{-0.147}}\cell
+\cellx9689
+\qr {{-0.500}}\cell
+\cellx10631
+\qr {{-0.344}}\cell
+\cellx11574
+\qr {{0.284}}\cell
+\cellx12516
+\qr {{0.315}}\cell
+\cellx13458
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1210
+\fs20\pard\intbl\ql { {(14) borg}}\cell
+\cellx2152
+\qr {{0.410}}\cell
+\cellx3094
+\qr {{0.408}}\cell
+\cellx4036
+\qr {{-0.254}}\cell
+\cellx4979
+\qr {{-0.345}}\cell
+\cellx5921
+\qr {{-0.224}}\cell
+\cellx6863
+\qr {{-0.190}}\cell
+\cellx7805
+\qr {{-0.280}}\cell
+\cellx8747
+\qr {{-0.162}}\cell
+\cellx9689
+\qr {{-0.453}}\cell
+\cellx10631
+\qr {{-0.327}}\cell
+\cellx11574
+\qr {{0.410}}\cell
+\cellx12516
+\qr {{0.408}}\cell
+\cellx13458
+\qr {{0.383}}\cell
+\cellx14400
+\qr {{1.000}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx14400{Spearman rho =    0.383}\cell
+\row}
+{\sect}\sectd
+
+
+{
+{\b\qc\line Tabulation of pares  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3500\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx5000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx6500
+\ql {}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx2000\cellx3500\cellx5000\cellx6500
+\ql {AF13}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {1.41}\cell
+\row
+\ql {AF19}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {2.82}\cell
+\row
+\ql {AF31}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {4.23}\cell
+\row
+\ql {AF32}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {5.63}\cell
+\row
+\ql {AF34}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {7.04}\cell
+\row
+\ql {AF35}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {8.45}\cell
+\row
+\ql {AF36}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {9.86}\cell
+\row
+\ql {AF41}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {11.27}\cell
+\row
+\ql {AF43}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {12.68}\cell
+\row
+\ql {AF45}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {14.08}\cell
+\row
+\ql {AF48}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {15.49}\cell
+\row
+\ql {AF50}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {18.31}\cell
+\row
+\ql {AF54}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {19.72}\cell
+\row
+\ql {AF60}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {21.13}\cell
+\row
+\ql {AF68}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {22.54}\cell
+\row
+\ql {Controle18}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {23.94}\cell
+\row
+\ql {Controle19}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {25.35}\cell
+\row
+\ql {Controle20}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {26.76}\cell
+\row
+\ql {Controle28}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {28.17}\cell
+\row
+\ql {Controle29}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {30.99}\cell
+\row
+\ql {Controle33}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {32.39}\cell
+\row
+\ql {Controle34}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {35.21}\cell
+\row
+\ql {Controle35}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {38.03}\cell
+\row
+\ql {Controle37}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {40.85}\cell
+\row
+\ql {Controle40}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {42.25}\cell
+\row
+\ql {Controle41}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {45.07}\cell
+\row
+\ql {Controle42}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {46.48}\cell
+\row
+\ql {Controle45}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {47.89}\cell
+\row
+\ql {Controle48}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {49.30}\cell
+\row
+\ql {Controle53}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {50.70}\cell
+\row
+\ql {SCA216}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {52.11}\cell
+\row
+\ql {SCA221}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {53.52}\cell
+\row
+\ql {SCA228}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {54.93}\cell
+\row
+\ql {SCA231}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {56.34}\cell
+\row
+\ql {SCA237}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {57.75}\cell
+\row
+\ql {SCA240}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {60.56}\cell
+\row
+\ql {SCA243}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {61.97}\cell
+\row
+\ql {SCA244}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {63.38}\cell
+\row
+\ql {SCA250}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {66.20}\cell
+\row
+\ql {SCA251}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {67.61}\cell
+\row
+\ql {SCA252}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {69.01}\cell
+\row
+\ql {SCA258}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {70.42}\cell
+\row
+\ql {SCA268}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {71.83}\cell
+\row
+\ql {SCA332}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {74.65}\cell
+\row
+\ql {SCA333}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {76.06}\cell
+\row
+\ql {SCA334}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {77.46}\cell
+\row
+\ql {SCA338}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {78.87}\cell
+\row
+\ql {SCA341}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {80.28}\cell
+\row
+\ql {SCA345}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {81.69}\cell
+\row
+\ql {SCA347}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {83.10}\cell
+\row
+\ql {SCA350}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {85.92}\cell
+\row
+\ql {SCA355}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {88.73}\cell
+\row
+\ql {SCA359}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {90.14}\cell
+\row
+\ql {SCA360}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {91.55}\cell
+\row
+\ql {SCA362}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {94.37}\cell
+\row
+\ql {SCA368}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {95.77}\cell
+\row
+\ql {SCA369}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {97.18}\cell
+\row
+\ql {SCA374}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {98.59}\cell
+\row
+\ql {SCA381}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx2000\clbrdrt\brdrw10\brdrs\cellx3500\clbrdrt\brdrw10\brdrs\cellx5000\clbrdrt\brdrw10\brdrs\cellx6500 
+\ql {Total}\cell
+\qr {71}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx6500\cell
+\row}
+
+
+{
+{\b\qc\line Tabulation of pares  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3500\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx5000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx6500
+\ql {}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx2000\cellx3500\cellx5000\cellx6500
+\ql {AF13}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {1.41}\cell
+\row
+\ql {AF19}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {2.82}\cell
+\row
+\ql {AF31}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {4.23}\cell
+\row
+\ql {AF32}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {5.63}\cell
+\row
+\ql {AF34}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {7.04}\cell
+\row
+\ql {AF35}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {8.45}\cell
+\row
+\ql {AF36}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {9.86}\cell
+\row
+\ql {AF41}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {11.27}\cell
+\row
+\ql {AF43}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {12.68}\cell
+\row
+\ql {AF45}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {14.08}\cell
+\row
+\ql {AF48}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {15.49}\cell
+\row
+\ql {AF50}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {18.31}\cell
+\row
+\ql {AF54}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {19.72}\cell
+\row
+\ql {AF60}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {21.13}\cell
+\row
+\ql {AF68}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {22.54}\cell
+\row
+\ql {Controle18}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {23.94}\cell
+\row
+\ql {Controle19}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {25.35}\cell
+\row
+\ql {Controle20}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {26.76}\cell
+\row
+\ql {Controle28}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {28.17}\cell
+\row
+\ql {Controle29}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {30.99}\cell
+\row
+\ql {Controle33}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {32.39}\cell
+\row
+\ql {Controle34}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {35.21}\cell
+\row
+\ql {Controle35}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {38.03}\cell
+\row
+\ql {Controle37}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {40.85}\cell
+\row
+\ql {Controle40}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {42.25}\cell
+\row
+\ql {Controle41}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {45.07}\cell
+\row
+\ql {Controle42}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {46.48}\cell
+\row
+\ql {Controle45}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {47.89}\cell
+\row
+\ql {Controle48}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {49.30}\cell
+\row
+\ql {Controle53}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {50.70}\cell
+\row
+\ql {SCA216}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {52.11}\cell
+\row
+\ql {SCA221}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {53.52}\cell
+\row
+\ql {SCA228}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {54.93}\cell
+\row
+\ql {SCA231}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {56.34}\cell
+\row
+\ql {SCA237}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {57.75}\cell
+\row
+\ql {SCA240}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {60.56}\cell
+\row
+\ql {SCA243}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {61.97}\cell
+\row
+\ql {SCA244}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {63.38}\cell
+\row
+\ql {SCA250}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {66.20}\cell
+\row
+\ql {SCA251}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {67.61}\cell
+\row
+\ql {SCA252}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {69.01}\cell
+\row
+\ql {SCA258}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {70.42}\cell
+\row
+\ql {SCA268}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {71.83}\cell
+\row
+\ql {SCA332}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {74.65}\cell
+\row
+\ql {SCA333}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {76.06}\cell
+\row
+\ql {SCA334}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {77.46}\cell
+\row
+\ql {SCA338}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {78.87}\cell
+\row
+\ql {SCA341}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {80.28}\cell
+\row
+\ql {SCA345}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {81.69}\cell
+\row
+\ql {SCA347}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {83.10}\cell
+\row
+\ql {SCA350}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {85.92}\cell
+\row
+\ql {SCA355}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {88.73}\cell
+\row
+\ql {SCA359}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {90.14}\cell
+\row
+\ql {SCA360}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {91.55}\cell
+\row
+\ql {SCA362}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {94.37}\cell
+\row
+\ql {SCA368}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {95.77}\cell
+\row
+\ql {SCA369}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {97.18}\cell
+\row
+\ql {SCA374}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {98.59}\cell
+\row
+\ql {SCA381}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx2000\clbrdrt\brdrw10\brdrs\cellx3500\clbrdrt\brdrw10\brdrs\cellx5000\clbrdrt\brdrw10\brdrs\cellx6500 
+\ql {Total}\cell
+\qr {71}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx6500\cell
+\row}
+
+
+{
+{\b\qc\line Tabulation of pares  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3500\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx5000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx6500
+\ql {}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx2000\cellx3500\cellx5000\cellx6500
+\ql {AF13}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {1.41}\cell
+\row
+\ql {AF19}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {2.82}\cell
+\row
+\ql {AF31}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {4.23}\cell
+\row
+\ql {AF32}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {5.63}\cell
+\row
+\ql {AF34}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {7.04}\cell
+\row
+\ql {AF35}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {8.45}\cell
+\row
+\ql {AF36}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {9.86}\cell
+\row
+\ql {AF41}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {11.27}\cell
+\row
+\ql {AF43}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {12.68}\cell
+\row
+\ql {AF45}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {14.08}\cell
+\row
+\ql {AF48}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {15.49}\cell
+\row
+\ql {AF50}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {18.31}\cell
+\row
+\ql {AF54}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {19.72}\cell
+\row
+\ql {AF60}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {21.13}\cell
+\row
+\ql {AF68}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {22.54}\cell
+\row
+\ql {Controle18}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {23.94}\cell
+\row
+\ql {Controle19}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {25.35}\cell
+\row
+\ql {Controle20}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {26.76}\cell
+\row
+\ql {Controle28}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {28.17}\cell
+\row
+\ql {Controle29}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {30.99}\cell
+\row
+\ql {Controle33}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {32.39}\cell
+\row
+\ql {Controle34}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {35.21}\cell
+\row
+\ql {Controle35}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {38.03}\cell
+\row
+\ql {Controle37}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {40.85}\cell
+\row
+\ql {Controle40}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {42.25}\cell
+\row
+\ql {Controle41}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {45.07}\cell
+\row
+\ql {Controle42}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {46.48}\cell
+\row
+\ql {Controle45}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {47.89}\cell
+\row
+\ql {Controle48}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {49.30}\cell
+\row
+\ql {Controle53}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {50.70}\cell
+\row
+\ql {SCA216}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {52.11}\cell
+\row
+\ql {SCA221}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {53.52}\cell
+\row
+\ql {SCA228}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {54.93}\cell
+\row
+\ql {SCA231}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {56.34}\cell
+\row
+\ql {SCA237}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {57.75}\cell
+\row
+\ql {SCA240}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {60.56}\cell
+\row
+\ql {SCA243}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {61.97}\cell
+\row
+\ql {SCA244}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {63.38}\cell
+\row
+\ql {SCA250}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {66.20}\cell
+\row
+\ql {SCA251}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {67.61}\cell
+\row
+\ql {SCA252}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {69.01}\cell
+\row
+\ql {SCA258}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {70.42}\cell
+\row
+\ql {SCA268}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {71.83}\cell
+\row
+\ql {SCA332}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {74.65}\cell
+\row
+\ql {SCA333}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {76.06}\cell
+\row
+\ql {SCA334}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {77.46}\cell
+\row
+\ql {SCA338}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {78.87}\cell
+\row
+\ql {SCA341}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {80.28}\cell
+\row
+\ql {SCA345}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {81.69}\cell
+\row
+\ql {SCA347}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {83.10}\cell
+\row
+\ql {SCA350}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {85.92}\cell
+\row
+\ql {SCA355}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {88.73}\cell
+\row
+\ql {SCA359}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {90.14}\cell
+\row
+\ql {SCA360}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {91.55}\cell
+\row
+\ql {SCA362}\cell
+\qr {2}\cell
+\qr {2.82}\cell
+\qr {94.37}\cell
+\row
+\ql {SCA368}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {95.77}\cell
+\row
+\ql {SCA369}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {97.18}\cell
+\row
+\ql {SCA374}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {98.59}\cell
+\row
+\ql {SCA381}\cell
+\qr {1}\cell
+\qr {1.41}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx2000\clbrdrt\brdrw10\brdrs\cellx3500\clbrdrt\brdrw10\brdrs\cellx5000\clbrdrt\brdrw10\brdrs\cellx6500 
+\ql {Total}\cell
+\qr {71}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx6500\cell
+\row}
+
+
+\writepositionforappend
+}}

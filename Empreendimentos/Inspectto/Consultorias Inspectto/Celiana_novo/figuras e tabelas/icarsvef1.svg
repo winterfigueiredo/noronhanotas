@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- This is a Stata 18.0 generated SVG file (http://www.stata.com) -->
+
+<svg version="1.1" width="7.500in" height="4.500in" viewBox="0 0 5400 3240" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>Stata Graph - Graph</desc>
+	<rect x="0" y="0" width="5400" height="3240" style="fill:#FFFFFF;stroke:none"/>
+	<rect x="0.00" y="0.00" width="5400.00" height="3240.00" style="fill:#FFFFFF"/>
+	<rect x="3.24" y="3.24" width="5393.52" height="3233.52" style="fill:none;stroke:#FFFFFF;stroke-width:6.48"/>
+	<rect x="459.34" y="113.40" width="4827.26" height="2524.33" style="fill:#FFFFFF"/>
+	<rect x="462.58" y="116.64" width="4820.78" height="2517.85" style="fill:none;stroke:#FFFFFF;stroke-width:6.48"/>
+	<circle cx="2462.91" cy="1439.10" r="21.74" style="fill:#1A85FF"/>
+	<circle cx="2462.91" cy="1439.10" r="16.88" style="fill:none;stroke:#1A85FF;stroke-width:9.72"/>
+	<circle cx="3517.09" cy="1542.38" r="21.74" style="fill:#1A85FF"/>
+	<circle cx="3517.09" cy="1542.38" r="16.88" style="fill:none;stroke:#1A85FF;stroke-width:9.72"/>
+	<circle cx="4395.43" cy="1526.51" r="21.74" style="fill:#1A85FF"/>
+	<circle cx="4395.43" cy="1526.51" r="16.88" style="fill:none;stroke:#1A85FF;stroke-width:9.72"/>
+	<circle cx="3224.31" cy="1824.19" r="21.74" style="fill:#1A85FF"/>
+	<circle cx="3224.31" cy="1824.19" r="16.88" style="fill:none;stroke:#1A85FF;stroke-width:9.72"/>
+	<circle cx="3165.75" cy="1498.67" r="21.74" style="fill:#1A85FF"/>
+	<circle cx="3165.75" cy="1498.67" r="16.88" style="fill:none;stroke:#1A85FF;stroke-width:9.72"/>
+	<circle cx="530.55" cy="1534.44" r="21.74" style="fill:#1A85FF"/>
+	<circle cx="530.55" cy="1534.44" r="16.88" style="fill:none;stroke:#1A85FF;stroke-width:9.72"/>
+	<circle cx="2053.01" cy="1574.10" r="21.74" style="fill:#1A85FF"/>
+	<circle cx="2053.01" cy="1574.10" r="16.88" style="fill:none;stroke:#1A85FF;stroke-width:9.72"/>
+	<circle cx="2872.80" cy="1752.81" r="21.74" style="fill:#1A85FF"/>
+	<circle cx="2872.80" cy="1752.81" r="16.88" style="fill:none;stroke:#1A85FF;stroke-width:9.72"/>
+	<circle cx="3926.98" cy="2169.62" r="21.74" style="fill:#1A85FF"/>
+	<circle cx="3926.98" cy="2169.62" r="16.88" style="fill:none;stroke:#1A85FF;stroke-width:9.72"/>
+	<circle cx="3224.31" cy="1482.81" r="21.74" style="fill:#1A85FF"/>
+	<circle cx="3224.31" cy="1482.81" r="16.88" style="fill:none;stroke:#1A85FF;stroke-width:9.72"/>
+	<circle cx="2931.36" cy="1252.63" r="21.74" style="fill:#1A85FF"/>
+	<circle cx="2931.36" cy="1252.63" r="16.88" style="fill:none;stroke:#1A85FF;stroke-width:9.72"/>
+	<circle cx="3692.76" cy="1768.67" r="21.74" style="fill:#1A85FF"/>
+	<circle cx="3692.76" cy="1768.67" r="16.88" style="fill:none;stroke:#1A85FF;stroke-width:9.72"/>
+	<circle cx="5215.22" cy="1534.44" r="21.74" style="fill:#1A85FF"/>
+	<circle cx="5215.22" cy="1534.44" r="16.88" style="fill:none;stroke:#1A85FF;stroke-width:9.72"/>
+	<line x1="459.34" y1="2637.73" x2="459.34" y2="113.40" style="stroke:#000000;stroke-width:6.48"/>
+	<line x1="459.34" y1="2566.52" x2="414.28" y2="2566.52" style="stroke:#000000;stroke-width:6.48"/>
+	<text x="391.84" y="2605.96" style="font-family:'Helvetica';font-size:112.56px;fill:#000000" text-anchor="end">0</text>
+	<line x1="459.34" y1="2169.45" x2="414.28" y2="2169.45" style="stroke:#000000;stroke-width:6.48"/>
+	<text x="391.84" y="2208.89" style="font-family:'Helvetica';font-size:112.56px;fill:#000000" text-anchor="end">1</text>
+	<line x1="459.34" y1="1772.55" x2="414.28" y2="1772.55" style="stroke:#000000;stroke-width:6.48"/>
+	<text x="391.84" y="1811.99" style="font-family:'Helvetica';font-size:112.56px;fill:#000000" text-anchor="end">2</text>
+	<line x1="459.34" y1="1375.65" x2="414.28" y2="1375.65" style="stroke:#000000;stroke-width:6.48"/>
+	<text x="391.84" y="1415.09" style="font-family:'Helvetica';font-size:112.56px;fill:#000000" text-anchor="end">3</text>
+	<line x1="459.34" y1="978.58" x2="414.28" y2="978.58" style="stroke:#000000;stroke-width:6.48"/>
+	<text x="391.84" y="1018.02" style="font-family:'Helvetica';font-size:112.56px;fill:#000000" text-anchor="end">4</text>
+	<line x1="459.34" y1="581.68" x2="414.28" y2="581.68" style="stroke:#000000;stroke-width:6.48"/>
+	<text x="391.84" y="621.12" style="font-family:'Helvetica';font-size:112.56px;fill:#000000" text-anchor="end">5</text>
+	<line x1="459.34" y1="184.61" x2="414.28" y2="184.61" style="stroke:#000000;stroke-width:6.48"/>
+	<text x="391.84" y="224.05" style="font-family:'Helvetica';font-size:112.56px;fill:#000000" text-anchor="end">6</text>
+	<text x="214.55" y="1375.65" style="font-family:'Helvetica';font-size:112.56px;fill:#000000" transform="rotate(-90 214.55,1375.65)" text-anchor="middle">VEF1 (L)</text>
+	<line x1="459.34" y1="2637.73" x2="5286.60" y2="2637.73" style="stroke:#000000;stroke-width:6.48"/>
+	<line x1="530.55" y1="2637.73" x2="530.55" y2="2682.79" style="stroke:#000000;stroke-width:6.48"/>
+	<text x="530.55" y="2783.94" style="font-family:'Helvetica';font-size:112.56px;fill:#000000" text-anchor="middle">0</text>
+	<line x1="1701.84" y1="2637.73" x2="1701.84" y2="2682.79" style="stroke:#000000;stroke-width:6.48"/>
+	<text x="1701.84" y="2783.94" style="font-family:'Helvetica';font-size:112.56px;fill:#000000" text-anchor="middle">20</text>
+	<line x1="2872.97" y1="2637.73" x2="2872.97" y2="2682.79" style="stroke:#000000;stroke-width:6.48"/>
+	<text x="2872.97" y="2783.94" style="font-family:'Helvetica';font-size:112.56px;fill:#000000" text-anchor="middle">40</text>
+	<line x1="4044.09" y1="2637.73" x2="4044.09" y2="2682.79" style="stroke:#000000;stroke-width:6.48"/>
+	<text x="4044.09" y="2783.94" style="font-family:'Helvetica';font-size:112.56px;fill:#000000" text-anchor="middle">60</text>
+	<line x1="5215.39" y1="2637.73" x2="5215.39" y2="2682.79" style="stroke:#000000;stroke-width:6.48"/>
+	<text x="5215.39" y="2783.94" style="font-family:'Helvetica';font-size:112.56px;fill:#000000" text-anchor="middle">80</text>
+	<text x="2872.97" y="2941.38" style="font-family:'Helvetica';font-size:112.56px;fill:#000000" text-anchor="middle">ICARS</text>
+	<text x="478.74" y="3080.13" style="font-family:'Helvetica';font-size:89.94px;fill:#000000">Spearman's rho = -0,224; p=0,41</text>
+</svg>

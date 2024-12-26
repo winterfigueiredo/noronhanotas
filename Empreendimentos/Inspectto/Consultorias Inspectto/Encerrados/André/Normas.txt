@@ -1,0 +1,8 @@
+As dissertações/monografias deverão ser formatadas de acordo com as regras de formatação (tipicamente encontradas nas páginas web das revistas científicas como “author guidelines”, “submission guidelines”, “formatting guidelines”) de uma revista científica da respectiva área técnico-científica ou generalista da área biomédica.
+
+Quaisquer que sejam as regras de formatação da revista, a primeira página do manuscrito (documento da dissertação/monografia propriamente dita) deverá corresponder a uma folha de rosto incluindo, no mínimo, o título do trabalho, o nome de todos os autores e as respectivas afiliações, e o contacto dos autores correspondentes.
+Submissão das tabelas e figuras como ficheiros separados na plataforma online de submissão: Perante essa indicação, as tabelas e figuras deverão ser apresentadas no final do manuscrito (documento da dissertação/monografia), após as referências e antes do eventual material suplementar e dos apêndices.
+
+Capa, folha de apresentação, declaração de integridade, declaração de reprodução
+
+(i) a primeira página deverá corresponder a uma página de rosto contendo o título, nome dos autores e respectivas afiliações, e contacto do autor correspondente; (ii) as tabelas e as figuras deverão ser apresentadas imediatamente após as referências (excepto se a revista exigir a sua apresentação ao longo do corpo do manuscrito); (iii) eventual material suplementar deverá ser apresentado no final do trabalho de dissertação/monografia, imediatamente antes dos apêndices.
