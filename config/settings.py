@@ -92,7 +92,7 @@ DATABASES = {
         'USER': 'dbnoronhanotas_user',
         'PASSWORD':  'nZYJ8y18kHJa3w7f6xjZOugMnpL6cpDf',
         'HOST': 'dpg-ctkblo3qf0us739gp3o0-a.oregon-postgres.render.com',
-        'PORT': 5432,
+        'PORT': 5432
     }
 }
 
