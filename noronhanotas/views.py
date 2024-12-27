@@ -8,11 +8,8 @@ from django.db.models import Sum
 from django.db.models.functions import TruncMonth
 import matplotlib.pyplot as plt
 from datetime import datetime
-from django.http import JsonResponse
-from django.http.response import Http404, HttpResponse
 import json
 from celery import shared_task
-from datetime import timedelta
 from django.contrib.auth.decorators import login_required
 
 
@@ -321,7 +318,7 @@ def autenticar(request):
     from django.contrib.auth import authenticate, login
     username = request.POST.get("user")
     senha = request.POST.get("pswd")
-    user = authenticate(username =username, password = senha)
+    user = authenticate(username = username, password = senha)
     if user is not None:
         login(request, user)
         return redirect(home)
