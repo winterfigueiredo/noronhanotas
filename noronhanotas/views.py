@@ -228,7 +228,7 @@ def vernotas(request, id):
     notas = Notas.objects.filter(pessoa=pessoa.id)
     notasPendentes = notas.filter(status ='pendente')
     notasPagas = notas.filter(status ='pago')
-    notasAtrasadas = notas.filter(atrasada ='sim', status='pendente')
+    notasAtrasadas = notas.filter(atrasada ='sim', status='pendente').order_by('-dataRecebimento')
     somanotas = notasPendentes.aggregate(Sum('valor'))['valor__sum'] or 0
     valorPendente = float((somanotas - pessoa.saldo ) or 0)
     return render(request, "vernotas.html", {

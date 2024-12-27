@@ -28,5 +28,4 @@ def currency(value):
         return format_currency(value, 'BRL', locale='pt_BR')
 
 # Testes
-print(currency(1234.56))  # Resultado esperado: R$ 1.234,56
-print(currency("abc"))    # Resultado esperado: Invalid value
+   # Resultado esperado: Invalid value
