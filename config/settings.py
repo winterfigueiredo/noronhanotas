@@ -87,14 +87,13 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # }
 #Migrar a base de dados para postgress
 
-senhadb = os.getenv("POSTGRES_PASSWORD")
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'dbnoronhanotas',
-        'USER': 'dbnoronhanotas_user',
-        'PASSWORD': senhadb, 
-        'HOST': 'dpg-ctkblo3qf0us739gp3o0-a.oregon-postgres.render.com',
+        'USER': os.getenv("POSTGRES_USER"),
+        'PASSWORD': os.getenv("POSTGRES_PASSWORD"), 
+        'HOST': os.getenv("POSTGRES_HOST"),
         'PORT': 5432,
     }
 }
