@@ -36,13 +36,19 @@ def home(request):
         notasPagas = notas.filter(status = 'pago')
         notasPagasSum = float(notasPagas.aggregate(Sum('valor'))['valor__sum'] or 0)
         notasAtrasadas = notas.filter(atrasada = 'sim', status='pendente')
-        notasAtrasadasSum = float(notasAtrasadas.aggregate(Sum('valor'))['valor__sum'] or 0)
-        notasAtrasadasPorMes = Notas.objects.filter(atrasada='sim', status='pendente').annotate(month=TruncMonth('data')).values('month').annotate(total=Sum('valor')).order_by('month') or 0
-        notasPagasPorMes = Notas.objects.filter(status='pago').annotate(month=TruncMonth('dataRecebimento')).values('month').annotate(total=Sum('valor')).order_by('month')
+        notasAtrasadasSum = float(notasAtrasadas.aggregate(Sum('valor'))['valor__sum'] or 0.0)
+        notasAtrasadasPorMes = notas.filter(atrasada='sim', status='pendente').annotate(month=TruncMonth('data')).values('month').annotate(total=Sum('valor')).order_by('month')
+        notasPagasPorMes = notas.filter(status='pago').annotate(month=TruncMonth('dataRecebimento')).values('month').annotate(total=Sum('valor')).order_by('month')
         notasPendentesPorMes = Notas.objects.filter(status='pendente').annotate(month=TruncMonth('data')).values('month').annotate(total=Sum('valor')).order_by('month')
         # Transformar em dicionário
+        
+        pendentes_dict = {}
+        pagas_dict = {}
+        atrasadas_dict={}
+        
+        
         pendentes_dict = {entry['month'].strftime('%Y-%m'): float(entry['total']) for entry in notasPendentesPorMes}
-        pagas_dict = {entry['month'].strftime('%Y-%m'): float(entry['total']) for entry in notasPagasPorMes}
+        pagas_dict = {entry['month'].strftime('%Y-%m'): float(entry['total']) for entry in notasPagasPorMes } 
         atrasadas_dict = {entry['month'].strftime('%Y-%m'): float(entry['total']) for entry in notasAtrasadasPorMes}
         mes_atual = datetime.now().strftime('%Y-%m')
         recebidoAtual = pagas_dict.get(mes_atual,0) 
