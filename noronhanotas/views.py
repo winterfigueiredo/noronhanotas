@@ -92,7 +92,7 @@ def vendas(request):
 
 @login_required
 def inicio(request):
-    return redirect(home)
+    return redirect(cliente)
 
 @login_required
 def cliente(request):
@@ -321,7 +321,7 @@ def autenticar(request):
     user = authenticate(username = username, password = senha)
     if user is not None:
         login(request, user)
-        return redirect(home)
+        return redirect(cliente)
     else:
         print("Deu errado")
         return redirect(landing)
