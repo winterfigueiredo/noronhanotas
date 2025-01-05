@@ -100,8 +100,9 @@ def cliente(request):
         if query:
             pessoas = Pessoa.objects.filter(nome__icontains=query)
         else:
-            pessoas = Pessoa.objects.all()
+            pessoas = Pessoa.objects.all().order_by('nome')
 
+        pessoas = pessoas.filter(valorpendente__gt=0)  
         context ={
             'pessoas': pessoas
         } 
