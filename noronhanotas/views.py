@@ -102,7 +102,7 @@ def cliente(request):
         else:
             pessoas = Pessoa.objects.all().order_by('nome')
 
-        pessoas = pessoas.filter(valorpendente__gt=0)  
+        
         context ={
             'pessoas': pessoas
         } 
