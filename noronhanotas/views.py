@@ -112,7 +112,7 @@ def cliente(request):
            
 @login_required
 def notas(request):
-    notas = Notas.objects.all()
+    notas = Notas.objects.filter(status='pendente').order_by('data')
     return render(request, "notas.html", {"notas": notas})
 
 @login_required
@@ -227,7 +227,7 @@ def novocliente(request):
 def vernotas(request, id):
     pessoa = Pessoa.objects.get(id=id)
     notas = Notas.objects.filter(pessoa=pessoa.id)
-    notasPendentes = notas.filter(status ='pendente')
+    notasPendentes = notas.filter(status ='pendente').order_by('-data')
     notasPagas = notas.filter(status ='pago')
     notasAtrasadas = notas.filter(atrasada ='sim', status='pendente').order_by('-data')
     somanotas = notasPendentes.aggregate(Sum('valor'))['valor__sum'] or 0
