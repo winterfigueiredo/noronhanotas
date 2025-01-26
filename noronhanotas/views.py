@@ -112,7 +112,7 @@ def cliente(request):
            
 @login_required
 def notas(request):
-    notas = Notas.objects.filter(status='pendente').order_by('data')
+    notas = Notas.objects.filter(status='pendente').order_by('data')[:20]
     return render(request, "notas.html", {"notas": notas})
 
 @login_required

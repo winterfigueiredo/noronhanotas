@@ -14,19 +14,21 @@
                     <thead>
                         <tr>
                         <th>Nome</th>
-                        <th>Valor(R$)</th>
                         <th>Data</th>
+                        <th>Valor(R$)</th>
+                        <th>Ver cliente</th>
                         </tr>
                     </thead>
                     {% for nota in notas %}
                     <tbody>
                         <tr>
                         <td>{{nota.pessoa}}</td>
-                        <td>{{nota.valor}}</td>
                         <td>{{nota.data}}</td>
-                        <td><a href="#"> <i class="fas fa-edit"></i></a>
-                        <a href="#"><i class="fas fa-trash-alt"></i></a>
-                        </td>
+                        <td>{{nota.valor}}</td>
+                        <td>
+                            <a href="{% url 'vernotas' nota.pessoa.id %}">Ver cliente</a>
+                          </td>
+                    
                         </tr>
                     {% endfor %}
                     </tbody>
